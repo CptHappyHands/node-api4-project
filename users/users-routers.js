@@ -17,3 +17,5 @@ const users = [
 router.get("/api/users", (req, res) => {
   res.status(200).json(users);
 });
+
+module.exports = router;
